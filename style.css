@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    padding: 10px;
+}
+
+.header .nav {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link {
+    width: 30%;
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.link a {
+    text-decoration: none;
+}
+
+.buttons1 {
+    padding: 8px 16px;
+    color: rgb(190, 51, 224);
+    border-radius: 0.8rem;
+    border-color: plum;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.buttons2 {
+    padding: 8px 16px;
+    color: white;
+    border-radius: 0.8rem;
+    border-color: rgb(54, 165, 165);
+    background-color: rgb(38, 139, 139);
+    margin-top: 30px;
+}
+
+.buttons2:hover {
+    background-color: rgb(190, 51, 224);
+}
+.buttons1:hover {
+    background-color: rgb(54, 165, 165);
+}
+
+.main {
+    /* background-color: aquamarine; */
+    width: 80%;
+    margin: auto;
+}
+
+.main .hero {
+    height: 400px;
+
+    display: flex;
+    /* overflow: hidden; */
+}
+
+.main .hero .kiri {
+    width: 50%;
+    margin-top: 20px;
+    /* background-color: #6342e4; */
+
+    display: flex;
+    flex-direction: column;
+}
+
+.main .hero .kiri h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    color: rgb(67, 212, 218);
+}
+
+.main .hero .kiri span {
+    font-size: 50px;
+    color: #6342e4;
+}
+
+.main .hero .kiri p {
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.main .hero .kanan {
+    width: 50%;
+    background-image: url("coretan.png");
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+}
+
+.main .hero img {
+    width: 50%;
+    margin-top: 50px;
+}
+
+.main .hero .bungkusan-tombol {
+    /* background-color: aqua; */
+    display: flex;
+}
+
+.bungkusan-tombol .tombol-kiri {
+    background-color: white;
+    text-decoration: none;
+    padding: 10px;
+    color: palevioletred;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+.bungkusan-tombol .tombol-kanan {
+    background-color: rgba(64, 156, 231, 0.911);
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    border-radius: 0.3rem ;
+    margin-top: 30px;
+}
